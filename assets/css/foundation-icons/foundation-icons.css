@@ -596,26 +596,26 @@
 @media screen and (max-width: 299px) {
     .icons {
         font-size: 1.22em;
-        text-align: left;
+        text-align: center;
     }
 }
 
 @media screen and (min-width: 300px) and (max-width: 799px) {
     .icons {
         font-size: 4em;
-        text-align: left;
+        text-align: center;
     }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1365px) {
     .icons {
-        font-size: 6em;
-        text-align: left;
+        font-size: 5em;
+        text-align: center;
     }
 }
 @media screen and (min-width: 1366px) {
     .icons {
-        font-size: 10em;
-        text-align: left;
+        font-size: 5em;
+        text-align: center;
     }
 }
