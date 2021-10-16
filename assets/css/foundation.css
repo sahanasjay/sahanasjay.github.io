@@ -5608,7 +5608,9 @@ html.is-reveal-open {
 
 .subnav-hero-section .subnav-hero-headline {
   color: #fefefe;
+  text-transform: uppercase;
 }
+
 
 .subnav-hero-subnav {
   float: none;
@@ -5626,13 +5628,14 @@ html.is-reveal-open {
 
 .subnav-hero-subnav li a {
   padding: 0.9rem 1rem;
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: #fefefe;
   text-transform: uppercase;
   display: block;
   font-weight: bold;
   letter-spacing: 1px;
   transition: all 0.35s ease-in-out;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .subnav-hero-subnav li a.is-active {
@@ -5660,5 +5663,11 @@ a.portfolio:hover{
 ul.portfolio{
   list-style-type: square;
 }
+
+h1,h2,h3,h4,h5,h6 {
+
+font-family: 'Roboto Condensed', sans-serif;
+}
+
 
 /*# sourceMappingURL=foundation.css.map */
