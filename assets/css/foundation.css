@@ -14,10 +14,12 @@
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+}
 
 body {
-  margin: 0; }
+  margin: 0;
+min-height: 100%;}
 
 h1 {
   font-size: 2em;
@@ -552,7 +554,7 @@ td {
 
 p {
   margin-bottom: 1rem;
-  font-size: inherit;
+  font-size: 1em;
   line-height: 1.6;
   text-rendering: optimizeLegibility; }
 
@@ -591,7 +593,7 @@ h6, .h6 {
     color: #cacaca; }
 
 h1, .h1 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem; }
@@ -628,7 +630,7 @@ h6, .h6 {
 
 @media print, screen and (min-width: 40em) {
   h1, .h1 {
-    font-size: 3rem; }
+    font-size: 3.5rem; }
   h2, .h2 {
     font-size: 2.5rem; }
   h3, .h3 {
@@ -642,11 +644,11 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #1779ba;
+  color: #f8008d;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #1468a0; }
+    color: #6b002e; }
   a img {
     border: 0; }
 
@@ -5584,5 +5586,88 @@ html.is-reveal-open {
     .hide-for-landscape,
     .show-for-portrait {
       display: block !important; } }
+
+
+.subnav-hero-section {
+  text-align: center;
+  background: rgba(248,0, 141, 0.7);
+  background-size: cover;
+  position: relative;
+  overflow: visible;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px;
+}
+
+.subnav-hero-section .subnav-hero-headline {
+  color: #fefefe;
+  text-transform: uppercase;
+}
+
+
+.subnav-hero-subnav {
+  float: none;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  bottom: 0;
+  width: 100%;
+}
+
+.subnav-hero-subnav li {
+  float: none;
+  display: inline-block;
+}
+
+.subnav-hero-subnav li a {
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  color: #fefefe;
+  text-transform: uppercase;
+  display: block;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.35s ease-in-out;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.subnav-hero-subnav li a.is-active {
+  background: rgba(254, 254, 254, 0.15);
+}
+
+.subnav-hero-subnav li a:hover {
+  background: rgba(254, 254, 254, 0.15);
+}
+
+.body-text{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.work-samples{
+  list-style-type: none;
+}
+a.portfolio{
+  color: black;
+}
+a.portfolio:hover{
+  color: #f8008d;
+}
+ul.portfolio{
+  list-style-type: square;
+}
+
+h1,h2,h3,h4,h5,h6 {
+
+font-family: 'Roboto Condensed', sans-serif;
+}
+
 
 /*# sourceMappingURL=foundation.css.map */
