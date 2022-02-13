@@ -5654,9 +5654,11 @@ html.is-reveal-open {
 .work-samples{
   list-style-type: none;
 }
+
 a.portfolio{
   color: black;
 }
+
 a.portfolio:hover{
   color: #f8008d;
 }
